@@ -12,6 +12,8 @@
 *.obj
 *.log
 *.tlog
+*.lib
+*.dll
 *.cki
 *.exe.config
 *.VC.db
