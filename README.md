@@ -1,0 +1,2 @@
+# MyDLL
+with some object
