@@ -24,7 +24,7 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\source\TCPClient.h">
+    <ClInclude Include="..\..\..\..\source\TCPServer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -38,7 +38,7 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\TCPClient.cpp">
+    <ClCompile Include="..\..\..\..\source\TCPServer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
