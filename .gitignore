@@ -12,6 +12,7 @@
 *.obj
 *.log
 *.tlog
+*.sdf
 *.cki
 *.exe.config
 *.VC.db

@@ -65,6 +65,7 @@ void TCPClient::ThreadRecvData(SOCKET sock, std::string &str)
 			m_connect_flag = false;
 			break;
 		}
+		m_str_len = ret;
 		str = string(recvBuff);
 		memcpy(m_data, recvBuff, TCP_STR_LEN);
 	}

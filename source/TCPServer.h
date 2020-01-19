@@ -29,6 +29,8 @@ public:
 	bool m_connect_falg;//连接状态(用于显示ip)
 	int m_recv_index;//发消息客户端的index
 	BYTE m_recData[TCP_STR_LEN];//接受的数据
+	//接受到的数据长度
+	int m_str_len;
 private:
 	//等待客户端连接线程
 	void WaitConnected(std::string &str);

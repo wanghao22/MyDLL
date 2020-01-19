@@ -34,6 +34,8 @@ public:
 	bool m_connect_flag;
 	//接受到的数据
 	BYTE m_data[TCP_STR_LEN];
+	//接受到的数据长度
+	int m_str_len;
 private:
 	//获取字符串线程
 	void ThreadRecvData(SOCKET sock, std::string & str);

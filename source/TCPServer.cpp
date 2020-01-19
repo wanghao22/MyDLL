@@ -146,6 +146,7 @@ void TCPServer::ThreadRecvData(SOCKET sock, std::string &str)
 			break;
 		}
 		//发送消息显示接收到的消息
+		m_str_len = ret;
 		str = string(recvBuff);
 		memcpy(m_recData, recvBuff, TCP_STR_LEN);
 		for (int i = 0; i < m_clients.size(); i++)
